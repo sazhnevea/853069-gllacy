@@ -7,7 +7,7 @@ body {
 	line-height: 22px;
 
 	background-color: #849d8f;
-	background-image: url(../img/bg.png);
+	/*background-image: url(../img/bg.png);*/
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -95,15 +95,10 @@ body {
 	font-weight: 700;
 	line-height: 41px;
 }
-.bonus-button
-{
+.bonus-button {
 	text-decoration: none;
 }
-.bonus {
-	background-image: url("img/raspberries.jpg");
-	position: 0 0;
-	background-repeat: no-repeat;
-}
+
 .product-item-price {
 	width: 153px;
 	height: 35px;
@@ -235,190 +230,265 @@ body {
 .container  {
 	width: 1146px;
 	margin: 0 auto;
-	padding: 0 0;
+	padding: 0;
 }
 .main-navigation {
-	margin-top: 14px;
-
-	margin-left: -17px;
+	margin: 0;
+	padding: 0;
+	width: 992px;
 }
+
 .main-header.container {
-	display:  flex;
+	display: flex;
 	flex-wrap: wrap;
-	}
-ul.site-navigation {
-	display: flex;
-
-}
-.user-navigation {
-	display: flex;
-	margin-left: auto;
-	max-width: 267px;
 }
 .main-header-logo {
-	margin: 9px 0 0 0;
-}
-
-.site-navigation li + li {
-	margin-left: 34px;
-}
-.user-navigation li {
-	margin-top: 17px;
-	padding-left: 10px;
-}
-.index-bonus {
-	display: flex;
-}
-
-.bonus {
-	margin: 0 auto;
-}
-.raspberry {
-	background-image: url("../img/raspberry.jpg");
-	margin: 0;
-	margin-right: 26px;
-	height: 230px;
-	width: 560px;
-	border-radius: 15px;
-}
-.choko {
-	background-image: url("../img/choko.jpg");
-	height: 230px;
-	width: 560px;
-	border-radius: 15px;
-}
-.bonus-h3,
-.bonus-p {
-	margin-left: 20px;
-}
-.bonus-h3 {
-	margin-top: 20px;
-	margin-bottom: 22px;
-}
-.bonus-p {
-	margin-top: -5px;
-}
-
-.bonus-button {
 	display: block;
-	margin-left: auto;
-	margin-right: 20px;
-	margin-top: 36px;
-	padding: 13px;
-	font: inherit;
-	text-align: center;
-	vertical-align: bottom;
-	border: none;
-	box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
-	color: #ffffff;
-	background-image: linear-gradient(to top, #e74a35 0%, #f26843 100%);
-	opacity: 0.99;
-	border-radius: 33px;
+	width: 154px;
+	height: 64px;
+	margin-top: 9px;
 }
-
-.choko .bonus-button {
-	width: 165px;
-}
-.raspberry .bonus-button {
-	width: 140px;
-}
-
-.user-navigation {
+.main-line {
 	display: flex;
+	width: 992px;
+	height: 73px;
+	flex-wrap: wrap;
 	align-items: center;
 }
-
-.search {
-	    background-image: url(../img/search.png);
-    display: block;
-    background-repeat: no-repeat;
-    width: 33px;
-    height: 33px;
-    background-position: 0 0;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-}
-
-.entrance {
-	    background-image: url(../img/entrance.png);
-    display: block;
-    background-repeat: no-repeat;
-    width: 33px;
-    height: 33px;
-    background-position: 0 0;
-     margin: 0;
-    padding: 0;
-}
-.curt {
-	    background-image: url(../img/curt.png);
-    display: block;
-    background-repeat: no-repeat;
-    width: 33px;
-    height: 33px;
-    background-position: 0 0;
-     margin: 0;
-    padding: 0;
-}
-
-
-.index-ads {
+.site-navigation {
 	display: flex;
-	flex-direction: row;
-	margin-top: 350px;
+	padding: 0;
+	width: 725px;
+}
+.site-navigation a
+{
+	margin-left: 25px;
+}
+.user-navigation {
+	display: flex;
+	padding: 0;
+	width: 267px;
+}
+.user-navigation a {
+	margin: 0;
+	padding: 25px;
+}
+.entrance::before {
+
+	content: "";
+	position: absolute;
+	top: ;
+	left: ;
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.mail-header-info {
+	width: 167px;
+	height: 38px;
+	margin-left: auto;
 }
 
+/*.site-navigation li + li {
+	margin-left: 34px;*/
+
+/*.user-navigation li {
+	margin-top: 17px;
+	padding-left: 10px;
+	} */
+	.bonus {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	/*.bonus {
+		min-height: 230px;
+		width: 560px;
+		}*/
+		.raspberry {
+			background-image: url("../img/raspberry.jpg");
+			height: 230px;
+			width: 560px;
+			margin: 0;
+			margin-right: auto;
+			padding: 0;
+			border-radius: 20px;
+		}
+		.choko {
+			background-image: url("../img/choko.jpg");
+			height: 230px;
+			width: 560px;
+			margin: 0;
+			padding: 0;
+			border-radius: 20px;
+		}
+		.bonus-h3,
+		.bonus-p {
+			margin-left: 20px;
+		}
+		.bonus-h3 {
+			margin-top: 20px;
+			margin-bottom: 22px;
+		}
+		.bonus-p {
+			margin-top: -5px;
+		}
+
+		.bonus-button {
+			display: block;
+			margin-left: auto;
+			margin-right: 20px;
+			margin-top: 36px;
+			padding: 13px;
+			font: inherit;
+			text-align: center;
+			vertical-align: bottom;
+			border: none;
+			box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+			color: #ffffff;
+			background-image: linear-gradient(to top, #e74a35 0%, #f26843 100%);
+			opacity: 0.99;
+			border-radius: 33px;
+		}
+
+		.choko .bonus-button {
+			width: 165px;
+		}
+		.raspberry .bonus-button {
+			width: 140px;
+		}
+
+		/*.search {
+			background-image: url(../img/search.png);
+			display: block;
+			background-repeat: no-repeat;
+			width: 33px;
+			height: 33px;
+			background-position: 0 0;
+			margin: 0;
+			padding: 0;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.entrance {
+			background-image: url(../img/entrance.png);
+			display: block;
+			background-repeat: no-repeat;
+			width: 33px;
+			height: 33px;
+			background-position: 0 0;
+			margin: 0;
+			padding: 0;
+		}
+		.curt {
+			background-image: url(../img/curt.png);
+			display: block;
+			background-repeat: no-repeat;
+			width: 33px;
+			height: 33px;
+			background-position: 0 0;
+			margin: 0;
+			padding: 0;
+		}
+*/
+
+		.index-ads {
+			display: flex;
+			margin-top: 350px;
+		}
 
 
-/* вторые два блока */
+
+		/* вторые два блока */
 /*.news,
 .subscribe {
 	display: flex;
 	margin: 0 auto;
-}*/
-.news {
-	background-image: url("../img/strawberry.png");
-	margin: 0;
-	margin-right: 26px;
-	height: 230px;
-	width: 587px;
-	border-radius: 15px;
-	background-repeat: no-repeat;
-}
-.subscribe {
-	background-image: url("../img/subscribe.png");
-	margin: 0;
-	
-	height: 230px;
-	width: 583px;
-	border-radius: 15px;
-	background-repeat: no-repeat;
-}
-.product-item {
-	display: none;
-}
-.news-new,
-.news-header
-{
-	display: block;
-	margin-left: 20px;
-}
-.subscribe-description
- {
- 	display: block;
-	width: 186px;
-	margin-left: 25px;
+	}*/
+	.news {
+		background-image: url("../img/strawberry.png");
+		margin: 0;
+		margin-right: 26px;
+		height: 230px;
+		width: 587px;
+		border-radius: 15px;
+		background-repeat: no-repeat;
 	}
-p.news-new {
-    margin-top: 23px;
+	.subscribe {
+		background-image: url("../img/subscribe.png");
+		margin: 0;
+		height: 230px;
+		width: 583px;
+		border-radius: 15px;
+		background-repeat: no-repeat;
+	}
+	.product-item {
+		display: none;
+	}
+	.news-new,
+	.news-header {
+		display: block;
+		margin-left: 20px;
+	}
+	.subscribe-description 	{
+		display: block;
+		width: 186px;
+		margin-left: 25px;
+	}
+	p.news-new {
+		margin-top: 23px;
+	}
+	.news-header {
+		width: 286px;
+	}
+	.subscribe-description {
+		margin-top: 23px;
+		width: 506px;
+	}
+.main-footer {
+	min-height: 105px;
+	display: flex;
+	justify-content: space-between;
 }
-.news-header {
-	width: 286px;
+.main-footer p,
+.main-footer a {
+	margin: 0;
 }
-.subscribe-description {
-margin-top: 23px;
-width: 506px;
+.footer-social,
+.footer-menu,
+.copyright  {
+min-height: 105px;
+padding-bottom: 33px;
+}
+.footer-social,
+.footer-menu, {
+	padding-top: 35px;
+}
+.footer-social {
+	display: flex;
+width: 187px;
+height: 40px;
+margin: 0;
+}
+.footer-menu {
+width: 326px;
+height: 36px;
+display: flex;
+margin: 0;
+margin-left: 213px;
+}
+
+
+.copyright  {
+width: 189px;
+height: 60px;
+margin: 0;
+margin-left: auto;
 }
 /*.bonus-h3,
 .bonus-p {
