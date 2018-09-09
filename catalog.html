@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header class="main-header container">
-		<a class="main-header-logo">
+		<a class="main-header-logo" href="index.html">
 			<img src="img/logo.png" width="154" height="64" alt="Логотип магазина Глейси">
 		</a>
 		<nav class="main-navigation">				
@@ -81,7 +81,13 @@
 			</div>
 			<div class="criteria-picks">
 				<ul class="criteria-list">
-					<li class="pick-sort">По популярности
+					<li class="pick-sort">
+						<select size="1" multiple name="hero[]">
+							<option selected>По популярности</option>
+							<option>Сначала недорогие</option>
+							<option>Сначала дорогие</option>
+							<option>По жирности</option>
+						</select>						
 						<ul class="pick-list">
 							<li class="list-item">
 								<a href="#">Новинки</a>
@@ -96,7 +102,7 @@
 							<li class="list-item">
 								<a href="#">Фруктовый лед</a>
 							</li>
-							</ul>
+						</ul>
 
 					</li>
 					<li class="pick-price">Бегунок</li>
