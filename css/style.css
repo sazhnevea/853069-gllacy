@@ -1658,6 +1658,12 @@ background-color: #f6b5a5;
 .product-item:hover .product-item-button {
 	display: block;
 }
+.product-item:hover {
+
+background-color: #9bafa3;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
 
 
 
