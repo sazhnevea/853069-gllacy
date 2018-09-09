@@ -64,9 +64,23 @@ body {
 	position: relative;
 	top: -132px;
 }
+.slider-controls-list {
+	display: flex;
+
+}
+
 .slider-controls {
-	position: relative;
-	bottom: 80px;
+	
+	    position: relative;
+    display: block;
+    bottom: 87px;
+    padding: 6px;
+    margin: 4px;
+    font-size: 0px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
 }
 .slider {
 	width: 1046px;
