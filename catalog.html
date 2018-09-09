@@ -14,34 +14,35 @@
 		</a>
 		<nav class="main-navigation">				
 			<ul class="site-navigation">
-				<li class='has-submenu'>
-					<a href="catalog.html">Каталог</a>
-					<ul class="submenu">
-						<li class="submenu-item">
-							<a href="#">Новинки</a>
-						</li>
-						<li class="submenu-item">
-							<a href="#">Сливочное</a>
-						</li>
-						<li class="submenu-item">
-							<a href="#">Щербеты</a>
-						</li>
-						<li class="submenu-item">
-							<a href="#">Фруктовый лед</a>
-						</li>
-						<li class="submenu-item">
-							<a href="#">Меролин</a>
-						</li>
-					</ul>
-				</li>
-				<li><a href="delivery_and_pay.html">Доставка и оплата</a></li>
-				<li><a href="about-us.html">О Компании</a></li>
+			<li class='has-submenu'>
+						<a class="background-color" href="catalog.html">Каталог</a>
+						<ul class="submenu">
+							<li class="submenu-item">
+								<a href="#">Новинки</a>
+
+							</li>
+							<li class="submenu-item">
+								<a href="catalog.html">Сливочное</a>
+							</li>
+							<li class="submenu-item">
+								<a href="#">Щербеты</a>
+							</li>
+							<li class="submenu-item">
+								<a href="#">Фруктовый лед</a>
+							</li>
+							<li class="submenu-item">
+								<a href="#">Меролин</a>
+							</li>
+						</ul>
+					</li>
+					<li><a class="background-color" href="delivery_and_pay.html">Доставка и оплата</a></li>
+					<li><a class="background-color" href="about-us.html">О Компании</a></li>
 			</ul>
 		</nav>
 		<ul class="user-navigation">
 			<li><a class="main-header-btn search"><span></span></a></li>
 			<li><a class="main-header-btn entrance"><span>Вход</span></a></li>
-			<li><a class="main-header-btn curt"><span>Пусто</span></a></li>
+			<li><a class="main-header-btn curt-full"><span>2 товара</span></a></li>
 		</ul>
 		<div class="entrance-form">
 			<form class="entrance-window" method="post" action="#">
@@ -75,19 +76,33 @@
 			<p class="way">Главная > Каталог > Сливочное</p>
 			<h2 class="icecream-type">Сливочное мороженое</h2>
 			<div class="filter-criteria">
-				<p class="sort">Сортировка</p>
+				<p class="sort1">Сортировка</p>
 				<p class="price">Цена: 100 руб.- 500 руб.</p>
 				<p class="fat">Жирность:</p>
 			</div>
 			<div class="criteria-picks">
 				<ul class="criteria-list">
 					<li class="pick-sort">
-						<select size="1" multiple name="hero[]">
+						<!--<select size="1" multiple name="hero[]">
 							<option selected>По популярности</option>
 							<option>Сначала недорогие</option>
 							<option>Сначала дорогие</option>
 							<option>По жирности</option>
-						</select>						
+						</select>	-->
+
+<div class="sort">
+              <select class="filter-input filter_sort" id="filter-sort" name="sort">
+                <option value="popular-first">по популярности</option>
+                <option value="cheap-first">сначала недорогие</option>
+                <option value="expensive-first">сначала дорогие</option>
+                <option value="fat-first">по жирности</option>
+              </select>
+            </div>
+
+
+
+
+
 						<ul class="pick-list">
 							<li class="list-item">
 								<a href="#">Новинки</a>
@@ -103,11 +118,11 @@
 							</li>
 						</ul>
 					</li>
-					
+
 					<li class="pick-price">
   <div class="price-controls">
-              <label class="min-price"><input name="min-price" type="text" value="100"></label>
-              <label class="max-price">-<input name="max-price" type="text" value="500"></label>
+              <label class="min-price"><input name="min-price" type="text" value=""></label>
+              <label class="max-price"><input name="max-price" type="text" value=""></label>
             </div>
           <div class="range-filter">
             <div class="range-controls">
@@ -130,16 +145,16 @@
 								<label for="0-fat">0%</label>
 							</li>
 							<li class="fat-size-pick">
-								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="0-fat">
-								<label for="0-fat">до 10%</label>
+								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="1-fat">
+								<label for="1-fat">до 10%</label>
 							</li>
 							<li class="fat-size-pick">
-								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="0-fat">
-								<label for="0-fat">до 30%</label>
+								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="2-fat">
+								<label for="2-fat">до 30%</label>
 							</li>
 							<li class="fat-size-pick">
-								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="0-fat">
-								<label for="0-fat">выше 30%</label>
+								<input class="filter-input_radio visually-hidden" type="radio" name="fat-content" value="0" id="3-fat">
+								<label for="3-fat">выше 30%</label>
 							</li>
 						</ul>
 					</li>
