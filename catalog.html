@@ -19,7 +19,6 @@
 					<ul class="submenu">
 						<li class="submenu-item">
 							<a href="#">Новинки</a>
-
 						</li>
 						<li class="submenu-item">
 							<a href="#">Сливочное</a>
@@ -61,17 +60,11 @@
 				</div>
 			</form>
 		</div>
-
 		<div class="search-window">
 			<form class="search-form" method="post" action="#">
 				<input id="search-field"  placeholder="Что ищем?" name="email">
 			</form>
 		</div>
-
-
-
-
-
 		<div class="mail-header-info">
 			<p class="working-hours">С 10 до 20, ежедневно</p>
 			<a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
@@ -81,28 +74,45 @@
 		<div class="filter">
 			<p class="way">Главная > Каталог > Сливочное</p>
 			<h2 class="icecream-type">Сливочное мороженое</h2>
-			<div>
-				<p>Сортировка</p>
-				<p>Цена: 100 руб. - 500 руб.</p>
-				<p>Жирность:</p>
+			<div class="filter-criteria">
+				<p class="sort">Сортировка</p>
+				<p class="price">Цена: 100 руб.- 500 руб.</p>
+				<p class="fat">Жирность:</p>
 			</div>
-			<div>
-				<ul>
-					<li>По популрности</li>
-					<li>Бегунок</li>
-					<li>Жирность</li>
+			<div class="criteria-picks">
+				<ul class="criteria-list">
+					<li class="pick-sort">По популярности
+						<ul class="pick-list">
+							<li class="list-item">
+								<a href="#">Новинки</a>
+
+							</li>
+							<li class="list-item">
+								<a href="catalog.html">Сливочное</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Щербеты</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Фруктовый лед</a>
+							</li>
+							</ul>
+
+					</li>
+					<li class="pick-price">Бегунок</li>
+					<li class="pick-fat">Жирность</li>
 				</ul>	
 			</div>
-			<p>Наполнители</p>
-			<div>
-				<ul>					
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+			<p class="fillers">Наполнители</p>
+			<div class="fillers-line">
+				<ul class="filer-pick">					
+					<li class="filler-item">шоколадные</li>
+					<li class="filler-item">сахарные присыпки</li>
+					<li class="filler-item">фрукты</li>
+					<li class="filler-item">сиропы</li>
+					<li class="filler-item">джемы</li>
 				</ul>
-				<button>Применить</button>
+				<button class="filler-button">Применить</button>
 			</div>
 		</div>
 		<!-- тут будут фильтры -->
@@ -211,9 +221,10 @@
 			</ul>
 		</nav>	
 		<div class="copyright">
-			<p>Сделано в <a href="#">HTML Academy</a> &#169 2017</p>
-		</div>	
-	</footer>
+			<p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>&#169 2017</p>
+		</div>
+	</div>
+</footer>
 </body>
 </html>
 
