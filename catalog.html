@@ -5,77 +5,77 @@
 	<title>HTML Academy: Глейси</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style.mini.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header container">
-			<a class="main-header-logo" href="index.html">
+		<a class="main-header-logo" href="index.html">
 			<img src="img/logo.png" width="154" height="64" alt="Логотип магазина Глейси">
 		</a>
-			<nav class="main-navigation">				
-				<ul class="site-navigation">
-					<li class='has-submenu'>
+		<nav class="main-navigation">				
+			<ul class="site-navigation">
+				<li class='has-submenu'>
 					<a class="background-color background-color-red" href="catalog.html">Каталог</a>
-						<ul class="submenu">
-							<li class="submenu-item">
-								<a class="font-weight" href="#">Новинки</a>
-							</li>
-							<li class="submenu-item">
-								<a href="catalog.html">Сливочное</a>
-							</li>
-							<li class="submenu-item">
-								<a href="#">Щербеты</a>
-							</li>
-							<li class="submenu-item">
-								<a href="#">Фруктовый лед</a>
-							</li>
-							<li class="submenu-item">
-								<a href="#">Меролин</a>
-							</li>
-						</ul>
-					</li>
-					<li class="delivery-and-pay"><a class="background-color" href="delivery_and_pay.html">Доставка и оплата</a></li>
-					<li class="about-us"><a class="background-color" href="about-us.html">О Компании</a></li>
-				</ul>
-			</nav>
-			<ul class="user-navigation">
-				<li><a class="main-header-btn search"><span></span></a>
-<div class="search-window">
-				<form class="search-form" method="post" action="#">
-					<input id="search-field"  placeholder="Что ищем?" name="email">
-				</form>
-			</div>
+					<ul class="submenu">
+						<li class="submenu-item">
+							<a class="font-weight" href="#">Новинки</a>
+						</li>
+						<li class="submenu-item">
+							<a href="catalog.html">Сливочное</a>
+						</li>
+						<li class="submenu-item">
+							<a href="#">Щербеты</a>
+						</li>
+						<li class="submenu-item">
+							<a href="#">Фруктовый лед</a>
+						</li>
+						<li class="submenu-item">
+							<a href="#">Меролин</a>
+						</li>
+					</ul>
 				</li>
-				<li><a class="main-header-btn entrance"><span>Вход</span></a>
-<div class="entrance-form">
-				<form class="entrance-window" method="post" action="#">
-					<p class="entrance-field">
-						<input id="email"  placeholder="Электронная почта" name="email">
-					</p>
-					<p class="entrance-field">
-						<input id="password" type="password" name="password" placeholder="Пароль">
-					</p>
-					<div class="form-buttons">
-						<button class="entrance-button" type="submit">Войти</button>
-						<div class="form-buttons2">
-							<a class="forget" href="#">Забыли пароль?</a>
-							<a class="sign-in" href="#">Новая регистрация</a>
-						</div>
-					</div>
-				</form>
-			</div>
-
-				</li>
-				<li><a class="main-header-btn curt"><span>Пусто</span></a></li>
+				<li class="delivery-and-pay"><a class="background-color" href="delivery_and_pay.html">Доставка и оплата</a></li>
+				<li class="about-us"><a class="background-color" href="about-us.html">О Компании</a></li>
 			</ul>
-			
-			
-			<div class="mail-header-info">
-				<p class="working-hours">С 10 до 20, ежедневно</p>
-				<a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
-			</div>
+		</nav>
+		<ul class="user-navigation">
+			<li><a class="main-header-btn search"><span></span></a>
+				<div class="search-window">
+					<form class="search-form" method="post" action="#">
+						<input id="search-field"  placeholder="Что ищем?" name="email">
+					</form>
+				</div>
+			</li>
+			<li><a class="main-header-btn entrance"><span>Вход</span></a>
+				<div class="entrance-form">
+					<form class="entrance-window" method="post" action="#">
+						<p class="entrance-field">
+							<input id="email"  placeholder="Электронная почта" name="email">
+						</p>
+						<p class="entrance-field">
+							<input id="password" type="password" name="password" placeholder="Пароль">
+						</p>
+						<div class="form-buttons">
+							<button class="entrance-button" type="submit">Войти</button>
+							<div class="form-buttons2">
+								<a class="forget" href="#">Забыли пароль?</a>
+								<a class="sign-in" href="#">Новая регистрация</a>
+							</div>
+						</div>
+					</form>
+				</div>
 
-		</header>
+			</li>
+			<li><a class="main-header-btn curt"><span>Пусто</span></a></li>
+		</ul>
+
+
+		<div class="mail-header-info">
+			<p class="working-hours">С 10 до 20, ежедневно</p>
+			<a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
+		</div>
+
+	</header>
 	<main class="container">
 		<div class="filter container">
 			<p class="way">Главная » Каталог » Сливочное</p>
@@ -85,7 +85,7 @@
 				<p class="price">Цена: 100 руб.- 500 руб.</p>
 				<p class="fat">Жирность:</p>
 			</div>
-			<div class="criteria-picks">
+			<div class="criteria-picks container">
 				<ul class="criteria-list">
 					<li class="pick-sort">
 						<div class="sort">
@@ -148,7 +148,7 @@
 					</li>
 				</ul>	
 			</div>
-		
+
 			<p class="fillers container">Наполнители</p>
 			<div class="fillers-line container">
 				<ul class="filter-input filter_topping">
@@ -176,7 +176,7 @@
 				<button class="filler-button">Применить</button>
 			</div>
 		</div>
-		<section class="catalog">
+		<section class="catalog container">
 			<h2 class="visually-hidden">Каталог мороженого</h2>
 			<ul class="product">
 				<li>
@@ -280,27 +280,28 @@
 			<a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
 					<path fill="#FFF" d="M16 0C7.164 0 0 7.163 0 16s7.164 16 16 16c8.837 0 16-7.164 16-16S24.837 0 16 0zm4.062 9.455h-3.021v3.444h3.021v3.445h-3.021v8.61H14.02v-8.61H11v-3.445h3.021V9.455c0-1.902 1.353-3.445 3.021-3.445h3.021v3.445z"/>
+				</svg>
+			</a>
+			<a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span>
+				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="#FFF">
+					<path d="M16.637 14.495c.402-.019.719-.082.951-.188.326-.145.54-.33.641-.559.101-.229.15-.496.15-.797 0-.232-.058-.465-.174-.697-.116-.232-.322-.405-.617-.517-.264-.1-.592-.155-.984-.165a76.242 76.242 0 0 0-1.652-.014h-.339v2.965h.565c.571 0 1.057-.009 1.459-.028zM18.118 17.084c-.282-.081-.672-.125-1.166-.132a127.97 127.97 0 0 0-1.55-.009h-.79v3.493h.264c1.014 0 1.74-.003 2.18-.009a3.2 3.2 0 0 0 1.212-.245c.377-.157.633-.364.774-.625s.214-.562.214-.9c0-.446-.088-.788-.261-1.03-.17-.241-.464-.423-.877-.543z"/>
+					<path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm6.602 20.531a3.73 3.73 0 0 1-1.124 1.327c-.552.415-1.161.71-1.823.886s-1.501.264-2.519.264h-6.121V8.987h5.443c1.13 0 1.957.038 2.48.113a5.126 5.126 0 0 1 1.561.5c.533.27.929.632 1.189 1.087.26.455.392.975.392 1.558 0 .678-.179 1.278-.536 1.795-.358.518-.863.92-1.517 1.208v.075c.917.182 1.642.559 2.179 1.13.537.571.807 1.325.807 2.261 0 .678-.138 1.283-.411 1.817z"/></g>
+				</svg>
+			</a>	
+		</div>
+		<nav class="footer-menu">
+			<ul>
+				<li><a href="#">Для поставщиков</a></li>	
+				<li><a href="#">Наши документы</a></li>	
+				<li><a href="#">О производстве</a></li>	
+				<li><a href="#">Экологические стандарты</a></li></ul>
+			</nav>	
+			<div class="copyright">
+				<a class="copyright-button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="108" height="39" alt="Логотип HTML Academy">
 				</a>
-				<a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span>
-					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g fill="#FFF">
-						<path d="M16.637 14.495c.402-.019.719-.082.951-.188.326-.145.54-.33.641-.559.101-.229.15-.496.15-.797 0-.232-.058-.465-.174-.697-.116-.232-.322-.405-.617-.517-.264-.1-.592-.155-.984-.165a76.242 76.242 0 0 0-1.652-.014h-.339v2.965h.565c.571 0 1.057-.009 1.459-.028zM18.118 17.084c-.282-.081-.672-.125-1.166-.132a127.97 127.97 0 0 0-1.55-.009h-.79v3.493h.264c1.014 0 1.74-.003 2.18-.009a3.2 3.2 0 0 0 1.212-.245c.377-.157.633-.364.774-.625s.214-.562.214-.9c0-.446-.088-.788-.261-1.03-.17-.241-.464-.423-.877-.543z"/>
-						<path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm6.602 20.531a3.73 3.73 0 0 1-1.124 1.327c-.552.415-1.161.71-1.823.886s-1.501.264-2.519.264h-6.121V8.987h5.443c1.13 0 1.957.038 2.48.113a5.126 5.126 0 0 1 1.561.5c.533.27.929.632 1.189 1.087.26.455.392.975.392 1.558 0 .678-.179 1.278-.536 1.795-.358.518-.863.92-1.517 1.208v.075c.917.182 1.642.559 2.179 1.13.537.571.807 1.325.807 2.261 0 .678-.138 1.283-.411 1.817z"/></g>
-					</svg>
-				</a>	
+				<p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>© 2017</p>
 			</div>
-			<nav class="footer-menu">
-				<ul>
-					<li><a href="#">Для поставщиков</a></li>	
-					<li><a href="#">Наши документы</a></li>	
-					<li><a href="#">О производстве</a></li>	
-					<li><a href="#">Экологические стандарты</a></li></ul>
-				</nav>	
-				<div class="copyright">
-					<a class="copyright-button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="108" height="39" alt="Логотип HTML Academy">
-					</a>
-					<p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>© 2017</p>
-				</div>
-			</footer>
-		</body>
-		</html>
+		</footer>
+	</body>
+	</html>
 
