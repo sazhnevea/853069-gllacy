@@ -43,11 +43,15 @@
 				</ul>
 			</nav>
 			<ul class="user-navigation">
-				<li><a class="main-header-btn search"><span></span></a></li>
-				<li><a class="main-header-btn entrance"><span>Вход</span></a></li>
-				<li><a class="main-header-btn curt"><span>Пусто</span></a></li>
-			</ul>
-			<div class="entrance-form">
+				<li><a class="main-header-btn search"><span></span></a>
+<div class="search-window">
+				<form class="search-form" method="post" action="#">
+					<input id="search-field"  placeholder="Что ищем?" name="email">
+				</form>
+			</div>
+				</li>
+				<li><a class="main-header-btn entrance"><span>Вход</span></a>
+<div class="entrance-form">
 				<form class="entrance-window" method="post" action="#">
 					<p class="entrance-field">
 						<input id="email"  placeholder="Электронная почта" name="email">
@@ -64,11 +68,12 @@
 					</div>
 				</form>
 			</div>
-			<div class="search-window">
-				<form class="search-form" method="post" action="#">
-					<input id="search-field"  placeholder="Что ищем?" name="email">
-				</form>
-			</div>
+
+				</li>
+				<li><a class="main-header-btn curt"><span>Пусто</span></a></li>
+			</ul>
+			
+			
 			<div class="mail-header-info">
 				<p class="working-hours">С 10 до 20, ежедневно</p>
 				<a href="tel:+78124502525" class="phone-number">8 812 450-25-25</a>
@@ -112,7 +117,7 @@
 					<a class="bonus-button" href="#">Хочу шоколадки!</a>
 				</div>
 			</div>
-			<section class="catalog container">
+			<section class="catalog">
 				<h2 class="visually-hidden">Каталог мороженого</h2>
 				<ul class="product">
 					<li class="product-item">
