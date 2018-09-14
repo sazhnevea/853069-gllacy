@@ -1364,7 +1364,7 @@ line-height: 24px;
 		background-color: #f8f7f4;
 		border-radius: 5px;
 	}
-	input#email {
+	.entrance-field-email {
 		width: 241px;
 		height: 44px;
 		border: 1px solid #d3d3d2;
@@ -1378,7 +1378,7 @@ line-height: 24px;
 		line-height: 24px;
 		margin-left: 17px;
 	}
-	input#password {
+	.entrance-field-password {
 		width: 241px;
 		height: 40px;
 		border: 1px solid #d3d3d2;
@@ -1393,8 +1393,8 @@ line-height: 24px;
 		    right: 18px;
     top: 35px;
 	}
-	input#email::-webkit-input-placeholder,
-	input#password::-webkit-input-placeholder {
+	.entrance-field-email::-webkit-input-placeholder,
+	.entrance-field-password::-webkit-input-placeholder {
 		padding-left: 10px;
 		color: #999999;
 		font-family: Roboto;
@@ -1473,7 +1473,7 @@ line-height: 24px;
 		    right: 0px;
     top: 35px;
 	}
-	input#search-field {
+	.search-field {
 		width: 298px;
 		height: 39px;
 		border: 1px solid #d3d3d2;
@@ -1505,9 +1505,9 @@ line-height: 24px;
 		z-index: 2;
 	}
 
-	input#name,
-	input#your-email,
-	input#something {
+	.feedback-header-name,
+.feedback-header-email,
+.feedback-header-something {
 		margin: 0;
 		padding: 0;
 		margin-bottom: 20px;
@@ -1539,15 +1539,15 @@ line-height: 24px;
 		line-height: 28px;
 		padding-top: 17px;
 	}
-	input#your-email {
+	.feedback-header-email {
 		margin-top: 1px;
 	}
-	input#something {
+	.feedback-header-something {
 		width: 417px;
 		height: 152px;
 		margin-top: 0px;
 	}
-	input#something::-webkit-input-placeholder {
+	.feedback-header-something::-webkit-input-placeholder {
 		color: #999999;
 		font-family: Roboto;
 		font-size: 14px;
