@@ -522,6 +522,8 @@ box-sizing: border-box;
 .submenu .submenu-item:nth-child(1) { 
 height: 38px;
 line-height: 38px;
+position: relative;
+margin-bottom: 4px;
 }
 
 .has-submenu:hover .submenu {
@@ -888,7 +890,7 @@ justify-content: space-between;
 width: 1172px;
 padding: 0;
 margin: 0 auto;
-margin-bottom: 33px;
+margin-bottom: 38px;
 }
 
 .product-item {
@@ -1321,10 +1323,11 @@ margin-bottom: 5px
 }
 
 .icecream-type {
-font-size: 35px;
-font-weight: 700;
-line-height: 44px;
-margin-bottom: 24px
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 22px;
+    padding-top: 2px;
 }
 
 .filter-criteria {
@@ -1586,14 +1589,12 @@ transition: .2s
 }
 
 .filter_topping {
-display: inline-block;
-vertical-align: middle;
-list-style: none;
--ms-flex-pack: distribute;
-justify-content: space-around;
-padding: 9px 17px 9px 47px;
-margin: 0;
-border-radius: 30px
+    list-style: none;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 9px 21px 9px 47px;
+    margin: 0;
+    border-radius: 30px;
 }
 
 .filter_topping li {
@@ -1641,15 +1642,13 @@ user-select: none
 }
 
 .filler-button {
-position: relative;
-top: 0;
-cursor: pointer;
-background-image: none;
-border: 2px solid #fff;
--webkit-box-shadow: none;
-box-shadow: none;
-margin: 0 0 0 21px;
-padding: 7px 28px;
+  position: relative;
+    top: 0;
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0 0 0 14px;
+    padding: 7px 27px;
 }
 
 .price-controls input, .price-controls label {
@@ -2335,10 +2334,10 @@ margin-bottom: 32px;
 
 .hr-catalog {
 width: 1146px;
-height: 1px;
+height: 0px;
 background-color: #ffffff;
 opacity: 0.3;
-margin-top: 13px;
+margin-top: 16px;
 margin-bottom: -1px;
 }
 
@@ -2391,11 +2390,11 @@ right: -22px;
 .submenu-item-new::after {
 content: "";
 position: absolute;
-top: 35px;
+bottom: 1px;
 left: 6px;
 width: 128px;
 height: 1px;
-background-color: #353535;
+background-color: #d1d0ce;
 }
 
 .product-item h3 {
@@ -2412,4 +2411,18 @@ margin-left: 1px;
 
 main.catalog-container {
 margin-top: -7px;
+}
+
+.submenu-item-new a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.submenu-item-else:last-child {
+    padding-bottom: 5px;
+}
+
+.main-header-btn.curt {
+    width: 118px;
+    box-sizing: border-box;
 }

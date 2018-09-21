@@ -5,7 +5,7 @@
 	<title>HTML Academy: Глейси</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link href="css/style.mini.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header container">
@@ -79,7 +79,8 @@
 				<a class="main-header-btn curt curt-full" href="#" aria-label="Корзина">
 					<svg class="basket-active" xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20">
 						<path fill="#E84D37" d="M5.888 4.031L6.922 13h10.45l1.176-8.969z"/>
-						<circle fill="#343434" cx="6.984" cy="18" r="2"/><circle fill="#343434" cx="15.984" cy="18" r="2"/>
+						<circle fill="#343434" cx="6.984" cy="18" r="2"/>
+						<circle fill="#343434" cx="15.984" cy="18" r="2"/>
 						<path fill="#343434" d="M5.657 2.031L5.422 0H0v2h3.64l1.5 13h13.988l1.699-12.969H5.657zM17.372 13H6.922L5.888 4.031h12.66L17.372 13z"/>
 					</svg>
 				2 товара</a>
@@ -169,16 +170,23 @@
 						</li>
 						<li class="pick-price">
 							<div class="price-controls">
-								<label class="min-price"><input name="min-price" type="text" value=""></label>
-								<label class="max-price"><input name="max-price" type="text" value=""></label>
+								<label class="min-price">
+									<input name="min-price" type="text" value="">
+								</label>
+								<label class="max-price">
+									<input name="max-price" type="text" value="">
+								</label>
 							</div>
 							<div class="range-filter">
 								<div class="range-controls">
 									<div class="scale">
-										<div class="bar"></div>
+										<div class="bar">
+										</div>
 									</div>
-									<div class="toggle toggle-min"></div>
-									<div class="toggle toggle-max"></div>
+									<div class="toggle toggle-min">
+									</div>
+									<div class="toggle toggle-max">
+									</div>
 								</div>
 							</div>
 						</li>
@@ -243,7 +251,9 @@
 					<h3>
 						<a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
 					</h3>
-					<div class="product-item-hover"><a href="#" class="product-item-button">Быстрый просмотр</a></div>
+					<div class="product-item-hover">
+						<a href="#" class="product-item-button">Быстрый просмотр</a>
+					</div>
 				</li>
 				<li>
 					<img src="img/product2.png" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
@@ -253,7 +263,9 @@
 					<h3>
 						<a href="#">Сливочно-кофейное с кусочками шоколада</a>
 					</h3>
-					<div class="product-item-hover"><a href="#" class="product-item-button">Быстрый просмотр</a></div>
+					<div class="product-item-hover">
+						<a href="#" class="product-item-button">Быстрый просмотр</a>
+					</div>
 				</li>
 				<li>
 					<img src="img/product3.png" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
@@ -273,7 +285,9 @@
 					<h3>
 						<a href="#">Сливочное крем-брюле с карамельной подливкой</a>
 					</h3>
-					<div class="product-item-hover"><a href="#" class="product-item-button">Быстрый просмотр</a></div>
+					<div class="product-item-hover">
+						<a href="#" class="product-item-button">Быстрый просмотр</a>
+					</div>
 				</li>
 				<li>
 					<img src="img/product5.png" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
@@ -369,39 +383,40 @@
 			<ul class="pagination">
 				<li>
 					<a href="#" class="product-page arrow">
-						<svg class="arrow-previous" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						viewBox="0 0 8 12" style="enable-background:new 0 0 8 12;" xml:space="preserve">
-						<style type="text/css">
-						.st0{fill:#C1C6CE;}
-					</style>
-					<path class="st0" d="M1,5.6C0.8,5.8,0.8,6.2,1,6.4l5.5,5.5C6.7,12,7,12,7.2,11.9c0.2-0.2,0.2-0.5,0-0.7L2.1,6l5.2-5.2l0,0
-					c0.2-0.2,0.2-0.5,0-0.7C7-0.1,6.7-0.1,6.5,0.1L1,5.6C1,5.6,1,5.6,1,5.6z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="#" class="product-page-current">1</a>
-		</li>
-		<li>
-			<a href="#" class="product-page">2</a>
-		</li>
-		<li>
-			<a href="#" class="product-page">3</a>
-		</li>
-		<li>
-			<a href="#" class="product-page">4</a>
-		</li>
-		<li>
-			<a href="#" class="product-page">5</a>
-		</li>
-		<li>
-			<a href="#" class="product-page arrow">
-				<svg class="arrow-next" xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/></svg>
-			</a>
-		</li>
-	</ul>
-</section>
-<hr class="hr-catalog">
+						<svg class="arrow-previous" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 12" style="enable-background:new 0 0 8 12;" xml:space="preserve">
+							<style type="text/css">
+							.st0{fill:#C1C6CE;}
+						</style>
+						<path class="st0" d="m1,5.6C0.8,5.8,0.8,6.2,1,6.4l5.5,5.5C6.7,12,7,12,7.2,11.9c0.2-0.2,0.2-0.5,0-0.7L2.1,6l5.2-5.2l0,0
+						c0.2-0.2,0.2-0.5,0-0.7C7-0.1,6.7-0.1,6.5,0.1L1,5.6C1,5.6,1,5.6,1,5.6z"/>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="product-page-current">1</a>
+			</li>
+			<li>
+				<a href="#" class="product-page">2</a>
+			</li>
+			<li>
+				<a href="#" class="product-page">3</a>
+			</li>
+			<li>
+				<a href="#" class="product-page">4</a>
+			</li>
+			<li>
+				<a href="#" class="product-page">5</a>
+			</li>
+			<li>
+				<a href="#" class="product-page arrow">
+					<svg class="arrow-next" xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
+						<path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<hr class="hr-catalog">
 </main>
 <footer class="main-footer container">
 	<div class="footer-social">
